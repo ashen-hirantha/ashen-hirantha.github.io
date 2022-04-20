@@ -64,6 +64,13 @@ body {
   background-color: #fff;
 }
 
+.card-gap{
+  padding: 3px;
+}
+
+.card1:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -617,6 +624,7 @@ pre code {
   width: 100%;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
+  text-align:start;
 }
 
 .col {
@@ -5449,7 +5457,7 @@ a.close.disabled {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  padding: 4rem 1rem-0.25rem;
+  padding: 4rem 1rem 0.25rem;
   border-top: 0 solid #dee2e6;
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
@@ -9877,7 +9885,7 @@ h3 {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding: 20px;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10146,8 +10154,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .portfolio {
-  padding-top: 6rem;
-  padding-bottom: 4.5rem;
+  padding:20px
 }
 
 .page-section-heading {
@@ -10159,7 +10166,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .pre-wrap {
-  white-space: pre-wrap;
+  white-space:normal;
 }
 
 .icon-contact {
