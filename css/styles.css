@@ -597,11 +597,19 @@ pre code {
     max-width: 1140px;
   }
 }
-.row {
-  display: flex;
+.row1 {
+  display:flex;
   flex-wrap: wrap;
   margin-right: -1.5rem;
   margin-left: -1.5rem;
+  justify-content: space-evenly;
+}
+.row2 {
+  display:flex;
+  flex-wrap: wrap;
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+  justify-content: space-evenly;
 }
 
 .no-gutters {
@@ -9809,13 +9817,7 @@ a.text-dark:hover, a.text-dark:focus {
   pre {
     white-space: pre-wrap !important;
   }
-
-  pre,
-blockquote {
-    border: 0.125rem solid #adb5bd;
-    page-break-inside: avoid;
-  }
-
+  
   thead {
     display: table-header-group;
   }
@@ -10187,4 +10189,22 @@ form .row:first-child .floating-label-form-group {
 
 .btn-social {
   margin-bottom: 0.5rem;
+}
+#chamberlogo{
+  clip-path: circle();
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+.card{
+  background-color: white;
+  background-position: 10px;
+}
+
+.cardcontent{
+  font-weight: bold;
+  text-align: left;
+  color: black;
+  padding: 10px
 }
