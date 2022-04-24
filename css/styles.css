@@ -10198,13 +10198,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .card{
-  background-color: white;
-  background-position: 10px;
-}
-
-.cardcontent{
-  font-weight: bold;
-  text-align: left;
-  color: black;
-  padding: 10px
+  display: block;
+  justify-content: space-around;
+  flex-basis: auto;
 }
