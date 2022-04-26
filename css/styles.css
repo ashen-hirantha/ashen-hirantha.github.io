@@ -45,7 +45,7 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: auto;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -63,7 +63,10 @@ body {
   text-align: left;
   background-color: #fff;
 }
-
+card h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
 .card-gap{
   padding: 3px;
 }
@@ -597,12 +600,12 @@ pre code {
     max-width: 1140px;
   }
 }
-.row1 {
-  display:flex;
-  flex-wrap: wrap;
+.row{
+  display:inline-flex;
+  flex-basis: auto;
   margin-right: -1.5rem;
   margin-left: -1.5rem;
-  justify-content: space-evenly;
+  justify-content: space-evenly
 }
 .row2 {
   display:flex;
@@ -630,8 +633,7 @@ pre code {
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
   position: relative;
   width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding: 5px;
   text-align:start;
 }
 
@@ -5294,7 +5296,6 @@ a.close.disabled {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
   opacity: 0;
   border-radius: 0.25rem;
 }
@@ -10203,15 +10204,16 @@ form .row:first-child .floating-label-form-group {
   flex-basis: auto;
 }
 .cardcontent{
-  border: 5px grey;
+  border: 5px black;
   font-weight: bold;
   color: #000;
   padding: 10px;
 }
 
-.portcard{
-  display: block;
-  border: black 10px;
-  justify-content: space-around;
-  padding: 10px;
+.list-inline{
+  margin: 10px;
+}
+
+.list-inline-item{
+  padding-bottom: 10px;
 }
